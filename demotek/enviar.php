@@ -13,7 +13,7 @@
         return false;
     }
 
-    header("Location: index_snt.html");
+    header("Location:index_snt.html");
 
 
 ?>
