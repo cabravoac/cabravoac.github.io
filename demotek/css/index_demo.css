@@ -437,7 +437,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
-        min-height: 120vh;
+        min-height: 130vh;
         padding: 0px 0px !important;
         z-index: 1;
         overflow: hidden;
@@ -446,7 +446,7 @@
     
     .nav-back {
         background: white;
-        min-height: 20vh;
+        min-height: 25vh;
         z-index: 20;
         overflow: hidden;
     }
