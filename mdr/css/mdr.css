@@ -1,0 +1,193 @@
+.nav {  
+    display: flex;
+    justify-content: center;
+}
+
+.nav img {
+    width: 100%;
+}
+
+.central {  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.central img {
+    width: 100%;
+}
+
+.video {
+    width: 35%;
+    position: absolute; 
+    top: 25%;
+}
+
+
+
+.menu-circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 115px;
+    
+    
+}
+
+.circles {
+    width: 70px;
+    height: 70px;
+    transform: scale(.9);
+    text-align: center;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     transform-origin: center;
+     background: #f4bba8;
+     transition: .5s ease;
+}
+
+.circles:hover {
+    transform: scale(1);
+    
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #76c6ba;
+}
+
+@font-face {
+    font-family: Gotham-Light;
+    src: url('font/Gotham-Light.otf');
+                }
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('font/Gotham-Medium.otf');
+                }
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('font/Gotham-Book.otf');
+                }
+
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('font/Gotham-Bold.otf');
+                }
+                
+.remachine-font {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.remachine-font h3{
+    font-family: Gotham-Light;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 10px;
+    color: #666666;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.remachine-font img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    }
+
+
+.mesa-font h3{
+    font-family: Gotham-Light;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 10px;
+    color: #666666;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.circles h4 {
+    font-family: Gotham-Book;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#events {
+    margin: 20px 0px;
+    
+}
+
+#events img {
+    width: 100%;
+}
+
+.how-back {
+    height: 383px;
+    background-image: url(../img/hmesa1.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+
+.how-cont {
+    display: flex;
+    flex-direction: row;
+    height: 383px;
+    align-items: center;
+    width: 100%;
+    padding: 0px 85px;
+}
+
+.icon1 {
+    text-align: center;
+    padding-top: 180px;
+    transition: .3s ease;
+    opacity: 0;
+    left: 20px;
+}
+
+.icon2 {
+    text-align: center;
+    margin-top: -180px;
+    transition: .3s ease;
+    opacity: 0;
+    left: 20px;
+}
+
+.icon3 {
+    text-align: center;
+    margin-top: 180px;
+    transition: .3s ease;
+    opacity: 0;
+    left: 20px;
+}
+
+.icon4 {
+    text-align: center;
+    margin-top: -180px;
+    transition: .3s ease;
+    opacity: 0;
+    left: 20px;
+}
+
+.icon-appear {
+    text-align: center;
+    opacity: 1;
+    left: 0px;
+}
+
+.how-cont img{
+    width: 140px;
+ 
+}
+
+.rewards img{
+    width: 100%;
+    margin-bottom: 20px;
+}

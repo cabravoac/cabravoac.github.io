@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>Mesa de Regalos - Liverpool</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/mdr.css">
+<script type="text/javascript" src="js/events.js"></script>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+    
+<body>
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="nav">
+                <img src="img/header.jpg">
+            </div> 
+        
+            <div class="central">
+                <img src="img/central.jpg">  
+                <video class="video" width="100%" muted="muted" playsinline="playsinline" autoplay="autoplay" loop="loop">
+                    <source src="img/central.mp4" type="video/mp4">
+                </video> 
+            </div>
+        </div>
+</div>           
+
+<div class="container">
+        <div class="row">
+          <div class="col-md-12 remachine-font"><h3>Elige un evento, hay una mesa para todos</h3></div>
+            <div class="col-md-12 menu-circles">
+                <div class="circles"><img src="img/icon_bautizo.png" onclick="event_openhouse()"><h4>Bautizo</h4></div>
+                <div class="circles"><img src="img/icon_bebes.png" onclick="event_boda()"><h4>Bebés</h4></div>
+                <div class="circles"><img src="img/icon_xv.png" onclick="event_openhouse()"><h4>XV Años</h4></div>
+                <div class="circles"><img src="img/icon_bodas.png" onclick="event_boda()"><h4>Bodas</h4></div>
+                <div class="circles"><img src="img/icon_comunion.png" onclick="event_openhouse()"><h4>Primera<br>Comunión</h4></div>
+                <div class="circles"><img src="img/icon_openhouse.png" onclick="event_openhouse()"><h4>Open<br>House</h4></div>
+                <div class="circles"><img src="img/icon_cumpleaños.png" onclick="event_boda()"><h4>Cumpleaños</h4></div>
+                <div class="circles"><img src="img/icon_infantil.png" onclick="event_openhouse()"><h4>Infantil</h4></div>
+                <div class="circles"><img src="img/icon_otros.png" onclick="event_boda()"><h4>Otros</h4></div>    
+            </div> 
+        </div>
+</div> 
+
+<div class="container-fluid">
+    <div class="row">
+        <div id="events"></div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="col-md-12 mesa-font"><h3>¿Cómo crear tu mesa?</h3></div>
+    <div class="row how-back">
+        <div class="how-cont">
+            <div class="col-3 icon1"><img src="img/paso1.png"></div>
+            <div class="col-3 icon2"><img src="img/paso2.png"></div>
+            <div class="col-3 icon3"><img src="img/paso3.png"></div>
+            <div class="col-3 icon4"><img src="img/paso4.png"></div>   
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="rewards"><img src="img/rewards.jpg"></div>
+        <div class="nav" style="margin-bottom: 30px"><img src="img/slider.jpg"></div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="nav">
+            <img src="img/footer.jpg">
+        </div> 
+    </div>
+</div>  
+
+<script>
+    $(window).scroll(function(){
+        var altura = $(window).scrollTop();
+
+        if(altura>850){
+            $('.icon1').addClass('icon-appear');
+        } else{
+        $('.icon1').removeClass('icon-appear');
+    }
+    });
+</script>
+<script>
+    $(window).scroll(function(){
+        var altura = $(window).scrollTop();
+
+        if(altura>950){
+            $('.icon2').addClass('icon-appear');
+        } else{
+        $('.icon2').removeClass('icon-appear');
+    }
+    });
+</script>
+<script>
+    $(window).scroll(function(){
+        var altura = $(window).scrollTop();
+
+        if(altura>1050){
+            $('.icon3').addClass('icon-appear');
+        } else{
+        $('.icon3').removeClass('icon-appear');
+    }
+    });
+</script>
+<script>
+    $(window).scroll(function(){
+        var altura = $(window).scrollTop();
+
+        if(altura>1150){
+            $('.icon4').addClass('icon-appear');
+        } else{
+        $('.icon4').removeClass('icon-appear');
+    }
+    });
+</script>
+
+ 
+</body>
+</html>
