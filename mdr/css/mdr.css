@@ -1,6 +1,7 @@
 .nav {  
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .nav img {
@@ -191,4 +192,17 @@
 .rewards img{
     width: 100%;
     margin-bottom: 20px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 1600px) {
+
+
+
 }
